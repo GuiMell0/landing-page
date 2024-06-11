@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <title>Odisseia Espacial</title>
+</head>
+<body>
+  <header>
+    <h1>Odisseia Espacial</h1>
+    <nav>
+      <a href="#">Sobre nós</a>
+      <a href="#">Contato</a>
+      <a href="#">Redes Sociais</a>
+    </nav>
+    
+  </header>
+
+  <main>
+    <section id="planetas">
+      <div class="planeta">
+        <h3 class="mercurio">Mercúrio</h3>
+        <img class="mercurio-foto" src="image/mercurio.jpeg" alt="Planeta Mercúrio">
+        <button onclick="toggleContent('mercurio')">Mostrar mais</button>
+        <p id="mercurio" class="mercurio-p hidden">
+          Mercúrio, o menor planeta do sistema solar, orbita mais próximo do Sol. Com temperaturas extremas entre -173°C e 427°C, sua superfície é marcada por crateras e vales profundos.
+        </p>
+      </div>
+
+      <div class="planeta">
+        <h3 class="venus">Vênus</h3>
+        <img class="venus-foto" src="image/venus.jpeg" alt="Planeta Vênus">
+        <button onclick="toggleContent('venus')">Mostrar mais</button>
+        <p id="venus" class="venus-p hidden">
+          Vênus é o planeta mais quente do Sistema Solar, com temperaturas que chegam a 462°C, superando até mesmo Mercúrio. Sua atmosfera é predominantemente composta por dióxido de carbono, criando um efeito estufa descontrolado. Além disso, sua rotação é retrógrada, o que significa que o Sol nasce no oeste e se põe no leste.
+        </p>
+      </div>
+
+      <div class="planeta">
+        <h3 class="marte">Marte</h3>
+        <img class="marte-foto" src="image/marte.jpeg" alt="Planeta Marte">
+        <button onclick="toggleContent('marte')">Mostrar mais</button>
+        <p id="marte" class="marte-p hidden">
+          Marte, o quarto planeta do Sistema Solar, é conhecido como o "Planeta Vermelho" devido à sua superfície oxidada. Ele possui montanhas impressionantes, como o Olympus Mons, a maior montanha conhecida no Sistema Solar.
+        </p>
+      </div>
+
+      <div class="planeta">
+        <h3 class="jupiter">Júpiter</h3>
+        <img class="jupiter-foto" src="image/jupiter.jpeg" alt="Planeta Júpiter">
+        <button onclick="toggleContent('jupiter')">Mostrar mais</button>
+        <p id="jupiter" class="jupiter-p hidden">
+          Júpiter, o maior planeta do Sistema Solar, é conhecido por sua atmosfera turbulenta e pela Grande Mancha Vermelha, uma tempestade gigante que existe há séculos. Possui mais de 70 luas conhecidas, incluindo Io, que tem vulcões ativos, e Europa, com um oceano subsuperficial de água líquida. Júpiter também desempenha um papel crucial na proteção do Sistema Solar, agindo como um "varredor" de asteroides e cometas devido à sua gravidade.
+        </p>
+      </div>
+
+      <div class="planeta">
+        <h3 class="saturno">Saturno</h3>
+        <img class="saturno-foto" src="image/saturno.jpeg" alt="Planeta Saturno">
+        <button onclick="toggleContent('saturno')">Mostrar mais</button>
+        <p id="saturno" class="saturno-p hidden">
+          Saturno, o sexto planeta do Sistema Solar, é reconhecido por seus belos anéis compostos principalmente de gelo, poeira e rocha. Este gigante gasoso possui mais de 80 luas, incluindo Titã, a maior delas, com uma atmosfera densa e lagos de metano líquido em sua superfície. Sua rotação rápida faz com que o planeta tenha uma forma achatada nos polos.
+        </p>
+      </div>
+
+      <div class="planeta">
+        <h3 class="urano">Urano</h3>
+        <img class="urano-foto" src="image/urano.jpeg" alt="Planeta Urano">
+        <button onclick="toggleContent('urano')">Mostrar mais</button>
+        <p id="urano" class="urano-p hidden">
+          Urano, o sétimo planeta do Sistema Solar, destaca-se por sua inclinação extrema de eixo, girando de lado em relação ao plano de sua órbita. Sua atmosfera contém principalmente hidrogênio e hélio, mas sua coloração azul-esverdeada vem da presença de metano na atmosfera. Urano tem um sistema de anéis fino e numerosas luas, incluindo Miranda, com suas falhas geológicas únicas.
+        </p>
+      </div>
+
+      <div class="planeta">
+        <h3 class="netuno">Netuno</h3>
+        <img class="netuno-foto" src="image/netuno.jpeg" alt="Planeta Netuno">
+        <button onclick="toggleContent('netuno')">Mostrar mais</button>
+        <p id="netuno" class="netuno-p hidden">
+          Netuno, o oitavo e último planeta do Sistema Solar, é um mundo gelado e misterioso localizado além de Urano. Sua atmosfera turbulenta apresenta ventos extremamente rápidos e uma grande mancha escura conhecida como a Grande Mancha Escura, semelhante à Grande Mancha Vermelha de Júpiter. Netuno possui um sistema de anéis tênue e 14 luas conhecidas, incluindo Tritão, que possui características geológicas intrigantes, como geiseres de nitrogênio líquido.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="rodape">
+      <h4>Odisseia Espacial</h4>
+      <div class="rodape-links">
+        <ul>
+          <li><a href="#">Notícias</a></li>
+          <li><a href="#">Missões Espaciais</a></li>
+          <li><a href="#">Sistema Solar</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Políticas de Privacidade</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./javascript/script.js"></script>
+</body>
+</html>
